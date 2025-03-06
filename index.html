@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nauu Corporation | AI & Business Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Della+Respira&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            font-family: Arial, sans-serif;
+            padding: 0;
+            background: #123456; /* Change background color here */
+            color: #abcdef; /* Change text color here */
+            height: 100vh;
+            background: url('LogoNauu.svg') no-repeat center center;
+            background-size: cover;
+            position: relative;
+        }
+        .see-more {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #ffffff;
+            font-size: 1.2rem;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            animation: float 2s infinite;
+        }
+        .see-more span {
+            margin-left: 10px;
+            font-size: 1.5rem;
+            line-height: 0.8; /* Center the arrow vertically */
+        }
+        @keyframes float {
+            0%, 100% {
+                transform: translate(-50%, 0);
+            }
+            50% {
+                transform: translate(-50%, -10px);
+            }
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #0E1A24;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: 0.3s;
+            margin-top: 40px; /* Add margin to the button */
+        }
+        .btn:hover {
+            background-color: #5c5c64;
+            color: #ffffff;
+        }
+        .section {
+            padding: 60px 20px;
+        }
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .service {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            width: 250px;
+        }
+        .service:hover {
+            background-color: #5c5c64;
+            color: #ffffff;
+        }
+        footer {
+            padding: 20px;
+            background: #0E1A24;
+            color: white;
+            font-size: 0.9rem;
+        }
+        .logo {
+            width: 200px;
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#about" class="see-more">See More <span>&#x2193;</span></a>
+    </header>
+    
+    <section class="section" id="about">
+        <h2>About Us</h2>
+        <p>We provide AI, Machine Vision and Global Sourcing services tailored for success.</p>
+    </section>
+    
+    <section class="section">
+        <h2>What We Do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Artificial Intelligence</h3>
+                <p>Helping businesses integrate AI solutions in their products.</p>
+            </div>
+            <div class="service">
+                <h3>Machine Vision</h3>
+                <p>From hardware solutions to system integrations.</p>
+            </div>
+            <div class="service">
+                <h3>Global Sourcing</h3>
+                <p>Connecting businesses with trusted suppliers.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section" id="contact">
+        <h2>Let's Talk</h2>
+        <p>Get in touch with us today to discuss your business needs.</p>
+        <a href="mailto:general@nauu.eu" class="btn">Email Us</a>
+    </section>
+    
+    <footer>
+        &copy; 2025 Nauu Corporation | All Rights Reserved
+    </footer>
+</body>
+</html>
